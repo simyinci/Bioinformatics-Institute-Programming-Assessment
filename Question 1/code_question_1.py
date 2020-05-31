@@ -52,7 +52,7 @@ def operation (m, n, d_s):
         # (A) if (d_s == min_sum): R --> D
         # (B) if (d_s == max_sum): D --> R
         # (C) if (d_s == min_sum + i*(m-1)) and (i >= 1): R --> D --> R
-        # (D) else: R --> D --> R* --> D --> R , or
+        # (D) else: R --> D --> R* --> D --> R , or R --> D --> R* --> D, or
         #           D --> R* --> D --> R , where R* is always 1
         
         # Step 1: Identify the main column to move down
