@@ -69,7 +69,7 @@ def operation (m, n, d_s):
             sum_1 += (m-1)
             diff = d_s - sum_1
             
-            if (diff <= 0):
+            if (diff < 0):
                 break
         
         # Step 2: List the required operations in op_ls ('R' or 'D' only)
